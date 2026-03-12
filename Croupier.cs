@@ -1,0 +1,72 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+namespace blackjack
+{
+    internal class Croupier
+    {
+        public List<Card> cartas;//croupier cartas;
+        public bool turn;//croupier turno
+        public int cuenta;//croupier cuenta
+
+        //constuctor 
+        public Croupier()
+        {
+            //cartas del croupier.
+            cartas = new List<Card>();
+            //turno del croupier.
+            turn = false;
+            //cuenta del croupier.
+            cuenta = 0;
+        }
+
+        //devuelve la suma de cartas del croupier.
+        public int Cuenta() 
+        {
+            cuenta = 0;
+            if(cartas!= null)
+            {
+                foreach(Card c in cartas)
+                {
+                    cuenta += c.number;
+                }
+            }
+            return cuenta;
+        }
+        
+        //croupier reparte carta
+        public Card RepartirCarta(List<Card> cardList)
+        {
+           int ind = 0;
+            while (true)
+            {
+                bool meter = true;
+                 ind = RandomNumberGenerator.GetInt32(0, cardList.Count);
+                if (Game.usedCards != null)
+                {
+                    foreach (int index in Game.usedCards)
+                    {
+                        if (ind == index)
+                        {
+                            meter = false;
+                            break;
+                        }
+                    }
+                   
+                }
+                if (meter == true)
+                {
+                    break;
+                }
+            }
+            if(Game.usedCards != null)
+            {
+                Game.usedCards.Add(ind);
+            }
+            return cardList[ind];
+        }
+    }
+}

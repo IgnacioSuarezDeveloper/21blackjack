@@ -1,0 +1,14 @@
+C:\Users\nache\source\repos\ConsoleApp1\bin\Debug\net8.0\21blackjack.exe
+C:\Users\nache\source\repos\ConsoleApp1\bin\Debug\net8.0\21blackjack.deps.json
+C:\Users\nache\source\repos\ConsoleApp1\bin\Debug\net8.0\21blackjack.runtimeconfig.json
+C:\Users\nache\source\repos\ConsoleApp1\bin\Debug\net8.0\21blackjack.dll
+C:\Users\nache\source\repos\ConsoleApp1\bin\Debug\net8.0\21blackjack.pdb
+C:\Users\nache\source\repos\ConsoleApp1\obj\Debug\net8.0\21blackjack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nache\source\repos\ConsoleApp1\obj\Debug\net8.0\21blackjack.AssemblyInfoInputs.cache
+C:\Users\nache\source\repos\ConsoleApp1\obj\Debug\net8.0\21blackjack.AssemblyInfo.cs
+C:\Users\nache\source\repos\ConsoleApp1\obj\Debug\net8.0\21blackjack.csproj.CoreCompileInputs.cache
+C:\Users\nache\source\repos\ConsoleApp1\obj\Debug\net8.0\21blackjack.dll
+C:\Users\nache\source\repos\ConsoleApp1\obj\Debug\net8.0\refint\21blackjack.dll
+C:\Users\nache\source\repos\ConsoleApp1\obj\Debug\net8.0\21blackjack.pdb
+C:\Users\nache\source\repos\ConsoleApp1\obj\Debug\net8.0\21blackjack.genruntimeconfig.cache
+C:\Users\nache\source\repos\ConsoleApp1\obj\Debug\net8.0\ref\21blackjack.dll
