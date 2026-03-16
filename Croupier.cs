@@ -37,7 +37,7 @@ namespace blackjack
             return cuenta;
         }
         
-        //croupier reparte carta
+        //croupier reparte carta.
         public Card RepartirCarta(List<Card> cardList)
         {
            int ind = 0;
@@ -67,6 +67,18 @@ namespace blackjack
                 Game.usedCards.Add(ind);
             }
             return cardList[ind];
+        }
+
+        //remove cards.
+        public void RemoveCards()
+        {
+            cartas.Clear();
+        }
+
+        //vaciar baraja.
+        public  void DeckClear(List<Card> cardList)
+        {
+            cardList.Clear();
         }
     }
 }

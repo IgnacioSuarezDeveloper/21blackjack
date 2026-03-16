@@ -74,6 +74,12 @@ namespace blackjack
             }
         }//PlayerAskForCards;
 
+        //devolver las cartas a la baraja
+        public void RemoveCards()
+        {
+            cartas.Clear();
+        }
+
 
     }
 }

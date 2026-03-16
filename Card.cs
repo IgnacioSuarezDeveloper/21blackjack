@@ -19,7 +19,7 @@ namespace blackjack
         public int number;
         public string name;
 
-        public Card(Palo _palo, int _number)
+        public Card(Palo _palo, int _number)//al inicializar las cartas.
         {
             palo = _palo;
             number = _number;

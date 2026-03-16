@@ -30,6 +30,24 @@ namespace blackjack
 
             while (true)
             {
+                
+
+           
+
+                //comprabando si la cuenta de player se ha pasado 
+                if (players[0].cuenta > 21)
+                {
+                    Console.WriteLine("te pasaste");
+                    Console.ReadLine();
+                    Console.Clear();
+                    players[0].RemoveCards();
+                    croupier.RemoveCards();
+                    croupier.DeckClear(Deck);
+                    Game.InitGame(players,croupier , Deck);
+                    Game.UserInterface(croupier,players);
+                }
+                
+                //preguntar al user
                 Console.WriteLine("¿quieres carta?");
 
                 //respuesta del jugador a si quiere cartas.
@@ -38,16 +56,44 @@ namespace blackjack
                 //croupier reparte cartas.
                 if (respuesta)
                 {
+                    //repartiendo carta al jugador.
                     players[0].cartas.Add(croupier.RepartirCarta(Deck));
+                }else if (!respuesta)
+                {
+                    //si la cuenta del jugador es mayor que la del croupier.
+                    if (players[0].cuenta > croupier.cuenta)
+                    {
+                        Console.WriteLine("as ganado \n");
+                        Console.WriteLine("reparto nuevas cartas\n");
+                        Console.ReadLine();
+                        Console.Clear();
+                        players[0].RemoveCards();
+                        croupier.RemoveCards();
+                        croupier.DeckClear(Deck);
+                        Game.InitGame(players, croupier, Deck);
+                    }
+                    else
+                    {
+                        Console.WriteLine("as perdidio");
+                        Console.WriteLine("reparto nuevas cartas\n");
+                        Console.ReadLine();
+                        Console.Clear();
+                        Console.ReadLine();
+                        players[0].RemoveCards();
+                        croupier.RemoveCards();
+                        croupier.DeckClear(Deck);
+                        Game.InitGame(players, croupier, Deck);
+
+                    }
+
+                    
+                   
                 }
                 //limpia consola.
                 Console.Clear();
 
-                //limpia consola.
+                //dibujando ui
                 Game.UserInterface(croupier, players);
-
-                //limpiando la consola.
-                Console.ReadLine();
             }
 
 

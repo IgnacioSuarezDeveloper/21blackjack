@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nache\\source\\repos\\ConsoleApp1\\",
+  "WorkspaceRootPath": "C:\\Users\\Ma\u00F1ana\\Desktop\\ConsoleBlackJack\\21blackjack\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|21blackjack.csproj|c:\\users\\nache\\source\\repos\\consoleapp1\\croupier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|21blackjack.csproj|c:\\users\\ma\u00F1ana\\desktop\\consoleblackjack\\21blackjack\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|21blackjack.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|21blackjack.csproj|c:\\users\\ma\u00F1ana\\desktop\\consoleblackjack\\21blackjack\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|21blackjack.csproj|solutionrelative:card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|21blackjack.csproj|c:\\users\\ma\u00F1ana\\desktop\\consoleblackjack\\21blackjack\\croupier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|21blackjack.csproj|solutionrelative:croupier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|ConsoleApp1.csproj|c:\\users\\nache\\source\\repos\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|21blackjack.csproj|c:\\users\\ma\u00F1ana\\desktop\\consoleblackjack\\21blackjack\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|21blackjack.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|ConsoleApp1.csproj|c:\\users\\nache\\source\\repos\\consoleapp1\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|ConsoleApp1.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|ConsoleApp1.csproj|c:\\users\\nache\\source\\repos\\consoleapp1\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|ConsoleApp1.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|21blackjack.csproj|c:\\users\\ma\u00F1ana\\desktop\\consoleblackjack\\21blackjack\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26966DA8-0DF5-427F-9CA1-8774184623A1}|21blackjack.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +30,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Croupier.cs",
-              "DocumentMoniker": "C:\\Users\\nache\\source\\repos\\ConsoleApp1\\Croupier.cs",
-              "RelativeDocumentMoniker": "Croupier.cs",
-              "ToolTip": "C:\\Users\\nache\\source\\repos\\ConsoleApp1\\Croupier.cs",
-              "RelativeToolTip": "Croupier.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwA4AAAAUAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\Ma\u00F1ana\\Desktop\\ConsoleBlackJack\\21blackjack\\Card.cs",
+              "RelativeDocumentMoniker": "Card.cs",
+              "ToolTip": "C:\\Users\\Ma\u00F1ana\\Desktop\\ConsoleBlackJack\\21blackjack\\Card.cs",
+              "RelativeToolTip": "Card.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwBUAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T18:06:56.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T10:25:53.739Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\nache\\source\\repos\\ConsoleApp1\\Player.cs",
-              "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "C:\\Users\\nache\\source\\repos\\ConsoleApp1\\Player.cs",
-              "RelativeToolTip": "Player.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
+              "Title": "Croupier.cs",
+              "DocumentMoniker": "C:\\Users\\Ma\u00F1ana\\Desktop\\ConsoleBlackJack\\21blackjack\\Croupier.cs",
+              "RelativeDocumentMoniker": "Croupier.cs",
+              "ToolTip": "C:\\Users\\Ma\u00F1ana\\Desktop\\ConsoleBlackJack\\21blackjack\\Croupier.cs",
+              "RelativeToolTip": "Croupier.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwE0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T19:01:42.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T18:06:56.553Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\nache\\source\\repos\\ConsoleApp1\\Game.cs",
-              "RelativeDocumentMoniker": "Game.cs",
-              "ToolTip": "C:\\Users\\nache\\source\\repos\\ConsoleApp1\\Game.cs",
-              "RelativeToolTip": "Game.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAswJQAAABRAAAAAAAAAA==",
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Ma\u00F1ana\\Desktop\\ConsoleBlackJack\\21blackjack\\Player.cs",
+              "RelativeDocumentMoniker": "Player.cs",
+              "ToolTip": "C:\\Users\\Ma\u00F1ana\\Desktop\\ConsoleBlackJack\\21blackjack\\Player.cs",
+              "RelativeToolTip": "Player.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwDcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T19:55:36.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T19:01:42.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\Ma\u00F1ana\\Desktop\\ConsoleBlackJack\\21blackjack\\Game.cs",
+              "RelativeDocumentMoniker": "Game.cs",
+              "ToolTip": "C:\\Users\\Ma\u00F1ana\\Desktop\\ConsoleBlackJack\\21blackjack\\Game.cs",
+              "RelativeToolTip": "Game.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAQwHMAAAB/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T19:55:36.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nache\\source\\repos\\ConsoleApp1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ma\u00F1ana\\Desktop\\ConsoleBlackJack\\21blackjack\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\nache\\source\\repos\\ConsoleApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\Ma\u00F1ana\\Desktop\\ConsoleBlackJack\\21blackjack\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwC0AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwEsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-11T18:56:55.79Z",
               "EditorCaption": ""
