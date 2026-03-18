@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace blackjack
+﻿namespace blackjack
 {
     internal class Player
     {
         //lista de cartas del jugador
-        public List<Card> cartas; 
+        public List<Card> cartas;
 
         //nombre del jugador.
         public string name;
@@ -41,11 +34,11 @@ namespace blackjack
         public int Cuenta()
         {
             cuenta = 0;
-            if(cartas != null)
+            if (cartas != null)
             {
-                foreach(Card c in cartas)
+                foreach (Card c in cartas)
                 {
-                  
+
                     cuenta += c.number;
                 }
             }
@@ -53,9 +46,9 @@ namespace blackjack
         }//PlayerSum
 
         //pedir carta.
-        public  bool AskForCards()
+        public bool AskForCards()
         {
-            string ?reader = Console.ReadLine();
+            string? reader = Console.ReadLine();
             do
             {
                 if (reader == "s" || reader == "n")
@@ -64,7 +57,7 @@ namespace blackjack
                 }
             } while (true);
 
-            if(reader == "s")
+            if (reader == "s")
             {
                 return true;
             }
@@ -78,7 +71,7 @@ namespace blackjack
         public void RemoveCards()
         {
             cartas.Clear();
-        }
+        }//RemoveCards.
 
 
     }

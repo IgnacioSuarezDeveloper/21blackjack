@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace blackjack
+﻿namespace blackjack
 {
     enum Palo
     {
@@ -29,16 +23,19 @@ namespace blackjack
             }
             else
             {
-                if(number == 10)
+                if (number == 10)
                 {
                     name = $"{palo.ToString()} {"Jack"}";
-                }else if(number == 11)
+                }
+                else if (number == 11)
                 {
                     name = $"{palo.ToString()} {"Queen"}";
-                }else if(number == 12)
+                }
+                else if (number == 12)
                 {
                     name = $"{palo.ToString()} {"King"}";
-                }else if(number == 0)
+                }
+                else if (number == 0)
                 {
                     name = $"{palo.ToString()} {"Joker"}";
                 }
