@@ -215,7 +215,7 @@
                 {
                     message += $"{c.name}, ";
                 }
-                Console.WriteLine($"{p.name.ToUpper()}->{message} cuenta: {playerSum}\n");
+                Console.WriteLine($"{p.name.ToUpper()}->{message} cuenta: {playerSum} fichas:{p.Fichas}\n");
             }
             
 

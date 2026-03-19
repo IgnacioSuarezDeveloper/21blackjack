@@ -13,9 +13,11 @@
             //Creando croupier
             Croupier croupier = new Croupier();
 
-
             //Creando jugador.
             Player jugador = new Player("Nacho");
+
+            //apuesta Jugadores.
+            int apuestaJugadores = 0;
 
             //añadiendo jugador a la lista.
             players.Add(jugador);
@@ -42,6 +44,7 @@
                     Game.UserInterface(croupier, players);
 
                 }
+                
                 //preguntar al user
                 Console.WriteLine("¿quieres carta?");
 
@@ -53,6 +56,9 @@
                 {
                     //repartiendo carta al jugador.
                     players[0].cartas.Add(croupier.RepartirCarta(Deck));
+                    int apuesta = players[0].Bet();
+                    apuestaJugadores += apuesta;
+                    players[0].UpdateChips(-apuesta);
                 }
                 else if (!respuesta)
                 {
@@ -68,6 +74,9 @@
                     if (players[0].cuenta > croupier.cuenta && croupier.cuenta <= 21)
                     {
                         Console.WriteLine("as ganado \n");
+                        Console.WriteLine($"fichas ganadas {apuestaJugadores * 2}");
+                        players[0].UpdateChips(apuestaJugadores * 2);
+                        apuestaJugadores = 0;
                         Console.WriteLine("reparto nuevas cartas\n");
                         Console.ReadLine();
                         Console.Clear();
@@ -93,6 +102,8 @@
                     else if (croupier.cuenta == players[0].cuenta && croupier.cuenta <= 21)
                     {
                         Console.WriteLine("Draw");
+                        players[0].UpdateChips(apuestaJugadores);
+                        apuestaJugadores = 0;
                         Console.WriteLine("reparto nuevas cartas\n");
                         Console.ReadLine();
                         Console.Clear();
@@ -108,6 +119,8 @@
                     {
 
                         Console.WriteLine("has ganado.");
+                        players[0].UpdateChips(apuestaJugadores * 2);
+                        apuestaJugadores = 0;
                         Console.WriteLine("reparto nuevas cartas\n");
                         Console.ReadLine();
                         Console.Clear();
@@ -124,6 +137,7 @@
                     Game.fristhand = true;
 
                 }
+
                 //limpia consola.
                 Console.Clear();
 
