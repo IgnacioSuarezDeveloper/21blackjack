@@ -60,6 +60,14 @@ namespace blackjack
                     players[0].cartas.Add(croupier.RepartirCarta(Deck));
                 }else if (!respuesta)
                 {
+                    while(croupier.cuenta < 15)
+                    {
+                        croupier.cartas.Add(croupier.RepartirCarta(Deck));
+                        croupier.Cuenta();
+                    }
+                    Console.Clear();
+                    Game.UserInterface (croupier,players);   
+                    Console.ReadLine();
                     //si la cuenta del jugador es mayor que la del croupier.
                     if (players[0].cuenta > croupier.cuenta)
                     {
