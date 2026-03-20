@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace blackjack
+﻿namespace blackjack
 {
     internal class Player
     {
         //lista de cartas del jugador
-        public List<Card> cartas; 
+        public List<Card> cartas;
 
         //nombre del jugador.
         public string name;
@@ -20,6 +13,15 @@ namespace blackjack
 
         //cuenta de jugador.
         public int cuenta;
+
+        //dinero del jugador;
+        private int fichas;
+
+        public int Fichas
+        {
+            get { return fichas; }
+            set { }
+        }
 
         //constructor.
         public Player(string _name)
@@ -33,19 +35,23 @@ namespace blackjack
             //inicializando turno a false.
             turn = false;
 
+            //inicializando fichas
+            fichas = 100;
+
             //inicializando cuenta.
             cuenta = 0;
-        }//Player
 
+        }//Player
+        
         //devuelve la cuenta de las cartas del jugador.
         public int Cuenta()
         {
             cuenta = 0;
-            if(cartas != null)
+            if (cartas != null)
             {
-                foreach(Card c in cartas)
+                foreach (Card c in cartas)
                 {
-                  
+
                     cuenta += c.number;
                 }
             }
@@ -53,18 +59,20 @@ namespace blackjack
         }//PlayerSum
 
         //pedir carta.
-        public  bool AskForCards()
+        public bool AskForCards()
         {
-            string ?reader = Console.ReadLine();
+            string? reader;
             do
             {
-                if (reader == "s" || reader == "n")
+                Console.WriteLine("\nS / N");
+                reader =  Console.ReadLine().ToUpper();
+                if (reader == "S" || reader == "N" || reader == "" )
                 {
                     break;
                 }
             } while (true);
 
-            if(reader == "s")
+            if (reader == "S")
             {
                 return true;
             }
@@ -78,7 +86,43 @@ namespace blackjack
         public void RemoveCards()
         {
             cartas.Clear();
+        }//RemoveCards.
+
+        //devuelve la apuesta del usuario.
+        public int Bet()
+        {
+           
+            while (true)
+            {
+                try
+                {
+                    Console.WriteLine("¿Cuantas fichas quieres apostar?");
+                    string reader = Console.ReadLine();
+                    int bet = int.Parse(reader);
+                    if (bet > fichas || bet < 0)
+                    {
+                        Console.WriteLine("apuesta no valida caballero");
+                    }
+                    else
+                    {
+                        return bet;
+                    }
+
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("apuesta no valida caballero");
+                }
+            }
+
         }
+
+        //actualizar las fichas del usuario
+        public void UpdateChips(int fichas)
+        {
+            this.fichas += fichas;
+        }
+
 
 
     }
