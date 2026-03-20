@@ -81,9 +81,9 @@
                 bool exit = true;
                 index = rnd.Next(0, cardsList.Count);
                 foreach (int ind in usedCards)
-                {
-                    if (ind == index)
-                    {
+                {  if (ind == index)
+                
+                      {
                         exit = false;
                         break;
                     }
@@ -161,8 +161,6 @@
                     break;
                 }
                 idex++;
-
-
 
             }
         }//ChangeTurn

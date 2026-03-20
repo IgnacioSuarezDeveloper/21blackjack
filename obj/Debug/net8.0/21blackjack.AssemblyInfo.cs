@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("21blackjack")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97b852944c6c68c03409ccd7b75c4664e993a6e0")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a277ddd27c73177c3d1ce2ad4e5496fd1319e0bc")]
->>>>>>> c933733520721a9cce4c6f5e012ae8ee79cd2ce1
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a2c19ae36f768dc19e73e6f6ef42ba1b060942d")]
 [assembly: System.Reflection.AssemblyProductAttribute("21blackjack")]
 [assembly: System.Reflection.AssemblyTitleAttribute("21blackjack")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

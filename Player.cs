@@ -17,6 +17,16 @@
         //dinero del jugador;
         private int fichas;
 
+        //dinero apostado;
+        private int apuesta;
+
+        public bool harespondido = false;
+
+        public int Apuesta
+        {
+            get { return apuesta; }
+            set { apuesta = value; }
+        }
         public int Fichas
         {
             get { return fichas; }
